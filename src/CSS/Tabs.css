@@ -1,0 +1,9 @@
+.TabContainer {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+.CenterBox {
+	justify-content: center;
+	display: flex;
+}

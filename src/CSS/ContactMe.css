@@ -1,0 +1,47 @@
+.Holder {
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Form_Container {
+	width: 80%;
+}
+#CenterName {
+	text-align: center;
+}
+
+.Email_Container {
+	width: 95%;
+	height: 2rem;
+}
+.Name_Container {
+	width: 95%;
+	height: 2rem;
+}
+.Message_Container {
+	width: 95%;
+	height: 25rem;
+	margin-bottom: 1rem;
+}
+.Form_Submit {
+	padding-left: 9rem;
+}
+#formSubmit {
+	/* text-align: center; */
+	display: block;
+	margin: 0 auto;
+	width: 8rem;
+	height: 3rem;
+	font-size: 2rem;
+}
+#Contact_info {
+	margin-bottom: 0.25rem;
+	margin-top: 0.25rem;
+	border-radius: 5px;
+}
+#message {
+	margin-top: 0.25rem;
+	margin-bottom: 0.5rem;
+	border-radius: 5px;
+}
