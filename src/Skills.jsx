@@ -1,45 +1,53 @@
 import React from "react";
+import "./CSS/Skills.css";
 
 const Skills = (props) => {
-  return (
-    <article>
-      <div class="Skills_content">
-        <p1>
-          <h2 class="skills_color">Programming:</h2>
-          <ul>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Java</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-        </p1>
-      </div>
+	return (
+		<article>
+			<div class="Skills_content">
+				<p>
+					<h2 class="skills_color">Programming:</h2>
 
-      <div class="Skills_content">
-        <p1>
-          <h2 class="skills_color">Development:</h2>
+					<span>React</span>
+					<br />
+					<span>JavaScript</span>
+					<br />
+					<span>HTML</span>
+					<br />
+					<span>CSS</span>
+					<br />
+					<span>Bootstrap</span>
+					<br />
+					<span>Java</span>
+				</p>
+			</div>
 
-          <ul>
-            <li>Linux CLI</li>
-            <li>OOP</li>
-            <li>Git</li>
-            <li>Data Structure</li>
-            <li>Problem Solving</li>
-          </ul>
-        </p1>
-      </div>
+			<div class="Skills_content">
+				<p>
+					<h2 class="skills_color">Development:</h2>
+					<span>Linux CLI</span>
+					<br />
+					<span>Data Structure</span>
+					<br />
+					<span>OOP</span>
+					<br />
+					<span>Git</span>
+					<br />
+					<span>NPM</span>
+					<br />
+				</p>
+			</div>
 
-      <div class="Skills_content">
-        <p1>
-          <h2 class="skills_color">Languages:</h2>
-          <ul>
-            <li>English</li>
-            <li>Arabic</li>
-          </ul>
-        </p1>
-      </div>
-    </article>
-  );
+			<div class="Skills_content">
+				<p>
+					<h2 class="skills_color">Languages:</h2>
+					<span>English</span>
+					<br />
+					<span>Arabic</span>
+					<br />
+				</p>
+			</div>
+		</article>
+	);
 };
 export default Skills;

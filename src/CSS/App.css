@@ -1,7 +1,19 @@
-.AppName {
-	background-color: #282c34;
-	color: black;
+:root {
+	--primary-color: rgb(180, 9, 9);
 }
+/* #050911 */
+/* #090f1b */
+
+.AppName {
+	background-color: #0b162e;
+	color: rgb(180, 9, 9);
+	/* color: #990000; */
+}
+li {
+	list-style-position: inside;
+	/* text-align: center; */
+}
+
 html {
 	background-color: #282c34;
 }
@@ -40,4 +52,30 @@ section p {
 
 .AppName > footer {
 	grid-area: footer;
+}
+
+::-webkit-scrollbar {
+	/* display: none; */
+	/* width: 12px; */
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgb(221, 19, 19);
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #640a0a;
 }

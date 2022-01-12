@@ -6,4 +6,17 @@
 .CenterBox {
 	justify-content: center;
 	display: flex;
+	/* margin-top: 12rem; */
+
+	color: var(--primary-color) !important ;
+}
+.nav-link {
+	color: red !important;
+}
+/* .nav-tabs:hover {
+	color: rgb(153, 10, 10) !important;
+} */
+.nav-tabs {
+	border-color: rgb(148, 5, 5);
+	border-bottom: 1px solid rgb(148, 5, 5) !important;
 }

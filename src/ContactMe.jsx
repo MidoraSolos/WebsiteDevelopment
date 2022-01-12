@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 import "./CSS/ContactMe.css";
 
 const Contact = (props) => {
@@ -12,7 +13,7 @@ const Contact = (props) => {
 
 					<div className="Form_content">
 						<label for="full name">Name:</label>
-						<br />
+
 						<input
 							className="Name_Container"
 							id="Contact_info"
@@ -21,10 +22,9 @@ const Contact = (props) => {
 							placeholder="Enter Your Name"
 							required="required"
 						/>
-						<br />
 
 						<label for="Email">Email:</label>
-						<br />
+
 						<input
 							className="Email_Container"
 							id="Contact_info"
@@ -33,10 +33,9 @@ const Contact = (props) => {
 							placeholder="Enter Your Email"
 							required="required"
 						/>
-						<br />
 
 						<label for="full name">Message:</label>
-						<br />
+
 						<textarea
 							className="Message_Container"
 							id="Contact_info2"
@@ -59,10 +58,7 @@ const Contact = (props) => {
 							value="New Submission from Website!"
 						/>
 						{/* <input type="text" name="_gotcha" className="hidden" /> */}
-
-						<button type="submit" id="formSubmit">
-							Submit
-						</button>
+						<button className="buttonCenter">Submit</button>
 					</div>
 				</form>
 			</section>

@@ -12,7 +12,7 @@ const Footer = () => {
 				<img
 					className="sideImages"
 					// style="width:40px; height:40px;"
-					src="../Assets/LinkedIn(1).png"
+					src="/LinkedIn(1).png"
 					title="My LinkedIn"
 				/>
 			</a>
@@ -20,15 +20,15 @@ const Footer = () => {
 				<img
 					className="middleImages"
 					// style="width:60px; height:40px;"
-					src="../Assets/GitHub.png"
+					src="/GitHub.png"
 					title="My GitHub"
 				/>
 			</a>
-			<a id="resume_link" href="AhmedResume.pdf" target="_blank">
+			<a id="resume_link" href="Ahmed_Resume.pdf" target="_blank">
 				<img
 					className="sideImages"
 					// style="width:40px; height:40px;"
-					src="../Assets/Resume1.png"
+					src="/Resume1.png"
 					title="My Resume"
 				/>
 			</a>

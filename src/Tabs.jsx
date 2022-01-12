@@ -2,19 +2,19 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
-import "./CSS/Tabs.css";
 import Container from "react-bootstrap/Container";
 import AboutMe from "../src/AboutMe";
 import Contact from "../src/ContactMe";
 import Skills from "../src/Skills";
+import "./CSS/Tabs.css";
 
 function TabContent() {
 	return (
 		<div>
 			<Switch>
-				<Container>
+				<Container id="skills">
 					<Tabs
-						defaultActiveKey="About"
+						defaultActiveKey="Skills"
 						id="uncontrolled-tab-example"
 						className="mb-3 CenterBox"
 					>
