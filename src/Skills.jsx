@@ -41,6 +41,8 @@ const Skills = (props) => {
 					<br />
 					<span>Git</span>
 					<br />
+					<span>Postman</span>
+					<br />
 					<span>NPM</span>
 					<br />
 				</p>

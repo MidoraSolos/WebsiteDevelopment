@@ -24,7 +24,7 @@ const Footer = () => {
 					title="My GitHub"
 				/>
 			</a>
-			<a id="resume_link" href="Ahmed_Resume.pdf" target="_blank">
+			<a id="resume_link" href="DamanhouryResume.pdf" target="_blank">
 				<img
 					className="sideImages"
 					// style="width:40px; height:40px;"
