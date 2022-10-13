@@ -1,7 +1,7 @@
 import React from "react";
 import "./CSS/App.css";
 
-import BaseRouter from "../Routes/BaseRouter";
+import BaseRouter from "./Routes/BaseRouter";
 
 function App() {
 	return (

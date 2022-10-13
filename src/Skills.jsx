@@ -19,6 +19,14 @@ const Skills = (props) => {
 					<span>Bootstrap</span>
 					<br />
 					<span>Java</span>
+					<br />
+					<span>Express</span>
+					<br />
+					<span>SQL</span>
+					<br />
+					<span>SpringBoot</span>
+					<br />
+					<span>MongoDB</span>
 				</p>
 			</div>
 
